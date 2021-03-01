@@ -17,6 +17,7 @@
 		0F9621F825ED2CB9006D372D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621F725ED2CB9006D372D /* MapView.swift */; };
 		0F9621FA25ED4716006D372D /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621F925ED4716006D372D /* MKPointAnnotation-ObservableObject.swift */; };
 		0F9621FC25ED483A006D372D /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621FB25ED483A006D372D /* EditView.swift */; };
+		0F9621FE25ED4C6E006D372D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621FD25ED4C6E006D372D /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0F9621F725ED2CB9006D372D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F9621F925ED4716006D372D /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		0F9621FB25ED483A006D372D /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		0F9621FD25ED4C6E006D372D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				0F9621D625E946EE006D372D /* AppDelegate.swift */,
 				0F9621D825E946EE006D372D /* SceneDelegate.swift */,
 				0F9621DA25E946EE006D372D /* ContentView.swift */,
+				0F9621FD25ED4C6E006D372D /* Result.swift */,
 				0F9621F725ED2CB9006D372D /* MapView.swift */,
 				0F9621F925ED4716006D372D /* MKPointAnnotation-ObservableObject.swift */,
 				0F9621FB25ED483A006D372D /* EditView.swift */,
@@ -182,6 +185,7 @@
 				0F9621F825ED2CB9006D372D /* MapView.swift in Sources */,
 				0F9621FC25ED483A006D372D /* EditView.swift in Sources */,
 				0F9621ED25E952C7006D372D /* Extension-GetDocuments.swift in Sources */,
+				0F9621FE25ED4C6E006D372D /* Result.swift in Sources */,
 				0F9621DB25E946EE006D372D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
