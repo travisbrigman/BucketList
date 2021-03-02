@@ -16,6 +16,7 @@ struct ContentView: View {
     @State private var showingPlaceDetails = false
     @State private var showingEditScreen = false
     @State private var isUnlocked = false
+    @State private var showingAlert = false
     
     var body: some View {
         ZStack {
@@ -35,6 +36,9 @@ struct ContentView: View {
             Alert(title: Text(selectedPlace?.title ?? "Unknown"), message: Text(selectedPlace?.title ?? "Missing place information"), primaryButton: .default(Text("OK")), secondaryButton: .default(Text("Edit")) {
                 self.showingEditScreen = true
                 })
+        }
+        .alert(isPresented: $showingAlert) {
+            Alert(title: Text("Error"), message: Text("Something Happened"), dismissButton: .default(Text("OK")))
         }
         .sheet(isPresented: $showingEditScreen, onDismiss: saveData) {
             if self.selectedPlace != nil {
@@ -83,7 +87,7 @@ struct ContentView: View {
                     if success {
                         self.isUnlocked = true
                     } else {
-                        //errorr
+                        self.showingAlert = true
                     }
                 }
             }

@@ -16,7 +16,6 @@ struct MainView: View {
     @Binding var showingEditScreen: Bool
     @Binding var showingPlaceDetails: Bool
     
-    
     var body: some View {
         
         Group {
