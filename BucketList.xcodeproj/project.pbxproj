@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F76FAFC25EE81D50065C70A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76FAFB25EE81D50065C70A /* MainView.swift */; };
 		0F9621D725E946EE006D372D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621D625E946EE006D372D /* AppDelegate.swift */; };
 		0F9621D925E946EE006D372D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621D825E946EE006D372D /* SceneDelegate.swift */; };
 		0F9621DB25E946EE006D372D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9621DA25E946EE006D372D /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F76FAFB25EE81D50065C70A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0F9621D325E946EE006D372D /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9621D625E946EE006D372D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F9621D825E946EE006D372D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				0F9621D625E946EE006D372D /* AppDelegate.swift */,
 				0F9621D825E946EE006D372D /* SceneDelegate.swift */,
 				0F9621DA25E946EE006D372D /* ContentView.swift */,
+				0F76FAFB25EE81D50065C70A /* MainView.swift */,
 				0F9621FD25ED4C6E006D372D /* Result.swift */,
 				0F9621F725ED2CB9006D372D /* MapView.swift */,
 				0F9621F925ED4716006D372D /* MKPointAnnotation-ObservableObject.swift */,
@@ -185,6 +188,7 @@
 				0F9621D725E946EE006D372D /* AppDelegate.swift in Sources */,
 				0F9621FA25ED4716006D372D /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				0F9621D925E946EE006D372D /* SceneDelegate.swift in Sources */,
+				0F76FAFC25EE81D50065C70A /* MainView.swift in Sources */,
 				0F9621F825ED2CB9006D372D /* MapView.swift in Sources */,
 				0F9621FC25ED483A006D372D /* EditView.swift in Sources */,
 				0F9621ED25E952C7006D372D /* Extension-GetDocuments.swift in Sources */,
